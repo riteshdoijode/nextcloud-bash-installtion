@@ -1,14 +1,12 @@
 # Nextcloud-Bash-Installtion
 By running this bash file your linux system you can install Apache + PHP 8.2 + Nextcloud setup.
 
-```markdown
+
 # 🚀 Nextcloud Auto-Setup for Raspberry Pi (PHP 8.2 + Apache2)
 
 This repository contains a bash script that **completely uninstalls** any existing Apache, PHP, or Nextcloud setup on your Raspberry Pi and then **installs a fresh, clean Nextcloud instance** with **PHP 8.2** and **Apache2**.
 
 > ✅ Tested on Raspberry Pi OS (Debian Bullseye)
-
----
 
 ## 📦 What this script does
 
@@ -20,8 +18,6 @@ This repository contains a bash script that **completely uninstalls** any existi
 - Downloads the latest Nextcloud release
 - Sets correct permissions for web access
 - Prepares your Raspberry Pi to access Nextcloud at `http://<your-local-ip>/nextcloud`
-
----
 
 ## 🚀 How to Use
 
@@ -46,23 +42,17 @@ This repository contains a bash script that **completely uninstalls** any existi
    http://<your-device-ip>/nextcloud
    ```
 
----
-
 ## 📋 Requirements
 
 - Raspberry Pi running Debian-based OS (Bullseye or similar)
 - Internet connection for downloading packages
 - Optional: Static IP for easier access to Nextcloud
 
----
-
 ## 🔐 Security Notes
 
 - This setup uses **SQLite** by default. For production use, it’s recommended to configure **MariaDB** or **PostgreSQL**.
 - Make sure to set a secure password during Nextcloud web installation.
 - You may want to install SSL (HTTPS) using Let's Encrypt (`certbot`) later.
-
----
 
 ## 🧠 Credits
 
