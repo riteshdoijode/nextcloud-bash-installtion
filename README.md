@@ -54,6 +54,17 @@ This repository contains a bash script that **completely uninstalls** any existi
 - Make sure to set a secure password during Nextcloud web installation.
 - You may want to install SSL (HTTPS) using Let's Encrypt (`certbot`) later.
 
+## To Uninstall 
+Download the uninstall_nextcloud.sh 
+
+```bash
+chmod +x uninstall_nextcloud.sh
+```
+
+```bash
+ ./uninstall_nextcloud.sh
+```
+
 ## 🧠 Credits
 
 This script was written by [Ritesh Doijode](https://github.com/riteshdoijode) with assistance from [ChatGPT](https://chat.openai.com/) to automate local Raspberry Pi-based server setups.
