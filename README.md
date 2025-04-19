@@ -74,4 +74,3 @@ This script was written by [Ritesh Doijode](https://github.com/riteshdoijode) wi
 ## 🛠️ License
 
 This project is licensed under the [MIT License](LICENSE).
-```
